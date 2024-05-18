@@ -8,7 +8,7 @@ const Page = async ({ params: { id } }) => {
   return (
     <>
       <div className="pt-8 px-4 flex lg:flex-nowrap flex-wrap justify-center  text-color-primary gap-10">
-        <div className="2xl:w-1/6 lg:w-2/6 md:w-96">
+        <div className="2xl:w-1/6 lg:w-2/6 md:w-80 xs:w-72">
           <Image
             src={anime.data.images.jpg.image_url}
             alt={anime.data.images.webp.image_url}
